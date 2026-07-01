@@ -20,5 +20,13 @@ export const isSupabaseConfigured = (): boolean => true;
 // Deprecated: kept as a no-op for backward compatibility with old imports
 export const getMockDatabase = () => {
   console.warn('getMockDatabase is deprecated — using real Supabase now.');
-  return null;
+  return {
+    orders: [],
+    products: [],
+    users: [],
+    categories: [],
+    banners: [],
+    customers: [],
+    dealers: [],
+  };
 };
