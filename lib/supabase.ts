@@ -26,6 +26,8 @@ export const getMockDatabase = (): {
   banners: any[];
   customers: any[];
   dealers: any[];
+  shades: any[];
+  messages: any[];
 } => {
   console.warn('getMockDatabase is deprecated — using real Supabase now.');
   return {
@@ -36,5 +38,7 @@ export const getMockDatabase = (): {
     banners: [],
     customers: [],
     dealers: [],
+    shades: [],
+    messages: [],
   };
 };
