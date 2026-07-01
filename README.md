@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🎨 New Mughal Paint
 
-# Run and deploy your AI Studio app
+A modern paint e-commerce platform built with **Next.js**, **TailwindCSS**, and **Supabase** — featuring product browsing, a color visualizer, admin dashboard, and customer accounts.
 
-This contains everything you need to run your app locally.
+🔗 **Live Demo:** [Visit Site](YAHAN_APNA_VERCEL_URL_DAALEIN)
 
-View your app in AI Studio: https://ai.studio/apps/1016ce26-ced4-4f8f-a6e1-6add30a777f5
+## ✨ Features
 
-## Run Locally
+- 🛒 Product catalog with categories and shade options
+- 🎨 Interactive color visualizer
+- 👤 Customer accounts (signup, login, order history, wishlist)
+- 🛍️ Shopping cart and checkout flow
+- 🧑‍💼 Admin dashboard (manage products, categories, orders, banners, dealers, customers)
+- 📍 Dealer locator
+- 📱 Fully responsive design
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Framework:** [Next.js](https://nextjs.org/) 15
+- **Styling:** [TailwindCSS](https://tailwindcss.com/)
+- **Database & Auth:** [Supabase](https://supabase.com/)
+- **Language:** TypeScript
+- **Deployment:** [Vercel](https://vercel.com/)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ installed
+- A Supabase account and project
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/officialmrcoder/New-Mughal-Paint.git
+cd New-Mughal-Paint
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Set up environment variables
+
+Create a `.env.local` file in the root directory and add:
+
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4. Run the development server
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📄 License
+
+This project is proprietary and confidential.
+
+## 👨‍💻 Author
+
+Built by [officialmrcoder](https://github.com/officialmrcoder)
+Developed By: ALL-ENDED-SOLUTIONS
+URL: newmughalpaint.vercel.app
