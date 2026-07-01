@@ -1,0 +1,6 @@
+{
+  "name": "New Mughal Paint",
+  "description": "Premium paint brand e-commerce website with customizable shades, cart, and dealer locations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

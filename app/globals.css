@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer base {
+  :root {
+    --color-maroon: #8B1E2A;
+    --color-maroon-dark: #6B141E;
+    --color-maroon-light: #AD2B3A;
+    --color-cream: #FDFBF7;
+    --color-cream-dark: #F3ECE0;
+    --color-gold: #D4AF37;
+    --color-gold-dark: #AA8B2C;
+    --color-charcoal: #2C2520;
+  }
+}
+
+.font-heading {
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+.bg-maroon {
+  background-color: var(--color-maroon);
+}
+.bg-maroon-dark {
+  background-color: var(--color-maroon-dark);
+}
+.bg-maroon-light {
+  background-color: var(--color-maroon-light);
+}
+.text-maroon {
+  color: var(--color-maroon);
+}
+.text-maroon-light {
+  color: var(--color-maroon-light);
+}
+.border-maroon {
+  border-color: var(--color-maroon);
+}
+
+.bg-cream {
+  background-color: var(--color-cream);
+}
+.bg-cream-dark {
+  background-color: var(--color-cream-dark);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
+.text-gold {
+  color: var(--color-gold);
+}
+.border-gold {
+  border-color: var(--color-gold);
+}
+
+/* Luxury transitions and custom shadows */
+.luxury-shadow {
+  box-shadow: 0 10px 30px -15px rgba(139, 30, 42, 0.15);
+}
+
+.luxury-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.luxury-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -20px rgba(139, 30, 42, 0.25);
+}
+
