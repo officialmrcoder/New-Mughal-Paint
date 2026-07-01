@@ -18,7 +18,15 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
 export const isSupabaseConfigured = (): boolean => true;
 
 // Deprecated: kept as a no-op for backward compatibility with old imports
-export const getMockDatabase = () => {
+export const getMockDatabase = (): {
+  orders: any[];
+  products: any[];
+  users: any[];
+  categories: any[];
+  banners: any[];
+  customers: any[];
+  dealers: any[];
+} => {
   console.warn('getMockDatabase is deprecated — using real Supabase now.');
   return {
     orders: [],
