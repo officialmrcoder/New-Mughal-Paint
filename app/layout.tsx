@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   verification: {
-    google: 'google0d2de21977f85ad4.html',
+    google: 'eSgTZYPZxmS7tZXCEVh7_PpQZyejuzIY2lQ2cjrKNFA',
   },
 };
 
