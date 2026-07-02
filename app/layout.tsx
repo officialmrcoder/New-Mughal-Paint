@@ -15,8 +15,19 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://newmughalpaint.vercel.app'),
   title: 'New Mughal Paint | Premium Royal Paints & Finishes',
   description: 'Experience the timeless grandeur of royal colours with New Mughal Paint. Premium silk wall emulsions, all-weather protection, and luxury metallic finishes.',
+  keywords: ['New Mughal Paint', 'Mughal Paint', 'premium paints', 'wall paint', 'paint colors', 'paint visualizer', 'buy paint online'],
+  openGraph: {
+    title: 'New Mughal Paint | Premium Royal Paints & Finishes',
+    description: 'Experience the timeless grandeur of royal colours with New Mughal Paint.',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
